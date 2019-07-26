@@ -9,11 +9,14 @@
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "bootstrap-vue": "^2.0.0-rc.25",
+    "check-node-version": "^4.0.1",
     "core-js": "^2.6.5",
+    "firebase": "^6.3.0",
+    "html2canvas": "^1.0.0-rc.3",
     "three": "^0.106.2",
     "vue": "^2.6.10",
-    "vue-3d-model": "^1.1.0-aplha.0"
+    "vue-3d-model": "^1.1.0-aplha.0",
+    "vuex": "^3.1.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.8.0",
@@ -46,5 +49,17 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "description": "## Project setup ``` npm install ```",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gggggbbbbb/3d-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gggggbbbbb/3d-test/issues"
+  },
+  "homepage": "https://github.com/gggggbbbbb/3d-test#readme"
 }
