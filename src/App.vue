@@ -1,6 +1,6 @@
 <template>
     <div style="height: 550px" class="view" >
-      <model-stl ref="model" src="/static/models/gear.stl"></model-stl>
+      <model-stl width=550 height=550 ref="model" src="/static/models/gear.stl"></model-stl>
     <button @click="takeSnap">Snapshot</button>
     </div>    
 </template>
@@ -11,17 +11,18 @@ export default {
   components: {
     ModelStl
   } ,
-  data(){
-    return{
+  data() {
+    return {
+
     }
   },
 
   methods:{
-      takeSnap(){
-          let {renderer}  = this.$refs.model;
-          let image =  renderer.domElement.toDataURL("image/png");
-          window.open(image); 
-    }
+     takeSnap(){
+      let {renderer}  = this.$refs.model;
+      let image =  renderer.domElement.toDataURL("image/png");
+      window.open(image); 
+    },
   }
 }
 </script>
