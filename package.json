@@ -13,7 +13,7 @@
     "core-js": "^2.6.5",
     "firebase": "^6.3.0",
     "html2canvas": "^1.0.0-rc.3",
-    "three": "^0.106.2",
+    "three": "^0.125.0",
     "vue": "^2.6.10",
     "vue-3d-model": "^1.1.0-aplha.0",
     "vuex": "^3.1.1"
